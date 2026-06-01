@@ -1,12 +1,12 @@
 # EHands Studio (Mãos Encantadas)
 
-Sistema backend desenvolvido em **Java** e **Spring Boot**, projetado com foco em arquitetura de software, separação de responsabilidades e boas práticas de desenvolvimento. O projeto aplica conceitos amplamente utilizados no mercado, como **Programação Orientada a Objetos (POO)**, **princípios SOLID**, **Domain-Driven Design (DDD)** e **Arquitetura em Camadas**, visando a construção de uma aplicação escalável, organizada e de fácil manutenção.
+Sistema backend desenvolvido em **Java** e **Spring Boot**, projetado com foco em arquitetura de software, separação de responsabilidades e boas práticas de desenvolvimento. O projeto aplica conceitos amplamente utilizados no mercado, como **Programação Orientada a Objetos (POO)**, **Princípios SOLID**, **Domain-Driven Design (DDD)** e **Arquitetura em Camadas**, visando a construção de uma aplicação escalável, organizada e de fácil manutenção. 
 
 ---
 
 # Objetivo
 
-O projeto foi desenvolvido com o objetivo de aplicar conceitos e práticas utilizadas em ambientes corporativos, proporcionando experiência na construção de APIs REST robustas e bem estruturadas.
+O projeto foi desenvolvido com o objetivo de aplicar conceitos e práticas utilizadas em ambientes corporativos, proporcionando experiência na construção de APIs REST robustas, bem estruturadas.
 
 ## Principais conceitos aplicados
 
@@ -23,7 +23,7 @@ O projeto foi desenvolvido com o objetivo de aplicar conceitos e práticas utili
 
 # Planejamento do Projeto
 
-Antes do início do desenvolvimento, foi realizado um processo de análise e modelagem para garantir uma estrutura sólida para a aplicação.
+Antes do início do desenvolvimento, foi realizado um processo de análise e modelagem para garantir uma estrutura sólida para a aplicação e de fãcil manuntenção.
 
 ## Levantamento de Requisitos e Casos de Uso
 
@@ -31,19 +31,12 @@ Inicialmente, foi elaborado um diagrama de casos de uso para mapear as funcional
 
 Essa etapa foi fundamental para definir o comportamento esperado do sistema e orientar as decisões de implementação.
 
-## 🗄️ Modelagem do Banco de Dados
 
-Após a definição dos requisitos e regras de negócio, foi criada a modelagem relacional do banco de dados utilizando o **MySQL Workbench**.
+## Modelagem do Banco de Dados
 
-Durante essa fase foram definidos:
+Antes da implementação da aplicação, desenhei todas as tabelas e iniciei a modelagem do projeto, nessa fase gosto de fazer longe do ambiente de trabalho, gosto de usar papel e caneta e pensar como usuário do sistema e naõ como programadora.
+Após isso começo definindo a estrutura do domínio e os relacionamentos necessários para o sistema.
 
-- Entidades do sistema
-- Relacionamentos entre tabelas
-- Chaves primárias (PK)
-- Chaves estrangeiras (FK)
-- Regras de integridade e consistência dos dados
-
-Essa etapa permitiu estruturar a base de dados antes do desenvolvimento da aplicação.
 
 ---
 
@@ -138,7 +131,7 @@ Foi implementada uma estratégia centralizada para tratamento de erros da aplica
 
 ---
 
-# 🧩 Arquitetura Utilizada
+# Arquitetura Utilizada
 
 O projeto foi estruturado utilizando conceitos inspirados em **DDD (Domain-Driven Design)** e **Arquitetura em Camadas**.
 
@@ -198,6 +191,6 @@ Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
 
 ---
 
-# 📌 Considerações Finais
+# Considerações Finais
 
 Este projeto representa a aplicação prática de conceitos fundamentais utilizados no desenvolvimento backend profissional, consolidando conhecimentos em arquitetura de software, organização de código e construção de aplicações escaláveis utilizando o ecossistema Spring.
